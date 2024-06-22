@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Oswald', 'Roboto', sans-serif;
+}
+
+div.main-body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-image: url('/assets/bg_image.jpg');
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+.left-side {
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-side .logo {
+    width: 100%;
+    height: 10vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    opacity: 0.8;
+    position: relative;
+    top: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+svg {
+    width: 50px;
+    height: 50px;
+    fill: white;
+}
+
+.logo p {
+    color: white;
+}
+
+.right-side {
+    background-color: #f9fafb;
+    width: 60vw;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.left-padding {
+    padding-left: 50px;
+}
+
+.top {
+    
+    padding-bottom: 30px;
+    padding-top: 100px;
+    font-size: larger;
+    color: #070707;
+}
+.top p:last-child {
+    padding-top: 10px;
+    padding-bottom: 5vh;
+}
+
+.middle {
+    background-color: white;
+    padding-bottom: 20px;
+}
+
+.middle .form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+.form-element {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    text-transform: uppercase;
+}
+
+.form-element label {
+    font-size: 1rem;
+    color: #070707;
+}
+
+.form-element input {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 1.2rem;
+    border: 1px solid #070707;
+    border-radius: 5px;
+    min-height: 1.2rem;
+    height: 2rem;
+    padding-left: 7px;
+}
+
+.form-element input:focus {
+    outline: none;
+    border: 2px solid green;
+}
+
+.form-element input:invalid {
+    border: 2px solid red;
+}
+
+.middle button {
+    font-family: 'Oswald', sans-serif;
+    font-size: larger;
+    border: none;
+    background-color: #596d48;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.2vh 3vw;
+    border-radius: 10px;
+    color: white;
+}
+.middle button:hover {
+    background-color: #4a5b3c;
+    color: white;
+    cursor: pointer;
+}
+
+.bottom {
+    font-size: medium;
+}
+
+.bottom a {
+    text-decoration: none;
+    color: #2d4e08;
+}
