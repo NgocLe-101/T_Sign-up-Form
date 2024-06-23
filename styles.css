@@ -39,13 +39,21 @@ div.main-body {
 }
 
 svg {
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100%;
     fill: white;
+    stroke: #3f5787;
+    stroke-width: 1;
 }
 
 .logo p {
     color: white;
+    font-size: 4rem;
+}
+
+.img-src {
+    color: white;
+    font-size: 1rem;
 }
 
 .right-side {
@@ -74,6 +82,7 @@ svg {
 }
 
 .middle {
+    padding-top: 2vh;
     background-color: white;
     padding-bottom: 20px;
 }
@@ -137,6 +146,7 @@ svg {
 
 .bottom {
     font-size: medium;
+    padding-bottom: 20vh;
 }
 
 .bottom a {
